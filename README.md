@@ -52,14 +52,13 @@ Output Layer: 10 neurons (one for each digit class)
 
 3️⃣ Training Setup
 Loss Function: CrossEntropyLoss (for multi-class classification)
-
 Optimizer: Adam optimizer with a learning rate of 0.001
-
 The model was trained for 3 epochs over the training dataset.
-
 During training, for each epoch, the model performed forward propagation, computed the loss, performed backpropagation, and updated weights using the optimizer.
+
 4️⃣ Evaluation
 After training, the model was tested on 10,000 test images. The model predicted the digits with a test accuracy of ~98%, showing strong performance even with a simple network.
+
 5️⃣ Visualization
 To analyze learning behavior, I plotted the Training Loss Curve using Matplotlib. The graph showed a decreasing trend in loss with each epoch, indicating that the model was learning effectively.
 
@@ -84,3 +83,5 @@ Wrote the code in a file named deeplearning.py.
 Ran the code using the integrated terminal inside VS Code.
 The code automatically downloaded the MNIST dataset, trained the model, printed epoch-wise loss values, final test accuracy, and displayed the loss graph.
 
+OUTPUT:
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5533a3cb-0b42-4b86-b573-edd601daaf0a" />
