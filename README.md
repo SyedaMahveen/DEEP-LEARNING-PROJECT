@@ -85,3 +85,4 @@ The code automatically downloaded the MNIST dataset, trained the model, printed 
 
 OUTPUT:
 
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/a4f0b508-c998-458b-ba7d-99e6c6c7da03" />
