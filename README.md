@@ -84,3 +84,8 @@ Ran the code using the integrated terminal inside VS Code.
 The code automatically downloaded the MNIST dataset, trained the model, printed epoch-wise loss values, final test accuracy, and displayed the loss graph.
 
 OUTPUT:
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/afab1410-1f08-45db-906a-09c769d3b481" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4bca7bdd-cefe-40d0-bfb6-6ce770bfc98d" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/efc32ecf-7a18-464d-8ec0-356933a18069" />
