@@ -84,6 +84,10 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
 print(f"✅ Test Accuracy: {100 * correct / total:.2f}%")
+# ✅ Save test accuracy to a text file
+accuracy = 100 * correct / total
+with open("model_accuracy.txt", "w") as f:
+    f.write(f"Test Accuracy: {accuracy:.2f}%\n")
 
 # ✅ Plot training loss
 plt.plot(train_losses, label="Training Loss")
